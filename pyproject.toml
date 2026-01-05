@@ -1,0 +1,29 @@
+[project]
+name = "V25MAT102"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "array-to-latex>=0.92",
+    "jupyter>=1.1.1",
+    "jupyterquiz>=2.8.1",
+    "matplotlib>=3.10.0",
+    "meteostat>=1.6.8",
+    "numpy>=2.2.2",
+    "plotly>=6.0.0",
+    "python-linear-algebra",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+    "sympy>=1.13.3",
+    "text2qti>=0.7.1",
+]
+
+[dependency-groups]
+dev = [
+    "v25mat102",
+]
+
+[tool.uv.sources]
+v25mat102 = { workspace = true }
+python-linear-algebra = { git = "https://github.com/mbr085/python_linear_algebra" }
