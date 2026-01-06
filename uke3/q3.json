@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Hvordan er opplegget med eksamen i MAT102?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Det er multlig eksamen i MAT102",
+                "correct": false,
+                "feedback": "Nei, eksamen i MAT102 er skriftlig."
+            },
+            {
+                "answer": "Jeg skal vise alle mellomregninger for å kunne bestå eksamen",
+                "correct": false,
+                "feedback": "Nei, mellomregninger blir ikke vurdert. Bare det endelige svaret blir vurdert."
+            },
+            {
+                "answer": "Eksamen består utelukkende av flervalgs-oppgaver",
+                "correct": false,
+                "feedback": "Nei, det er en blanding av flervalgs-oppgaver og oppgaver der resultatet av en utregning må skrives inn."
+            },
+            {
+                "answer": "Eksamensbesvarelsen kan enten leveres på papir eller elektronisk",
+                "correct": false,
+                "feedback": "Oppgavene kan kun leveres elektronisk gjennom inspera. Det er ikke mulig å legge til bilder av utregninger eller figurer."
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Hvordan er opplegget med obligatoriske innleveringer i MAT102?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Det blir gitt fire oppgaver, og det er tilstrekkelig å få godkjent tre av de.",
+                "correct": false,
+                "feedback": "Det blir gitt tre oppgaver, og alle må bli godkjent"
+            },
+            {
+                "answer": "Det er mulig å levere oppgaver etter angitt frist",
+                "correct": false,
+                "feedback": "Nei, hvis du ikke er i stand til å levere oppgaven til angitt frist må du kontakte studieadministrasjonen (Kristine Lysnes) om dette."
+            },
+            {
+                "answer": "Obligatoriske oppgaver teller i karakteren i kurset",
+                "correct": false,
+                "feedback": "Nei, det er en forutsetning for å kunne ta eksamen å levere obligatoriske oppgaver. De obligatoriske oppgavene blir bedømt som bestått/ikke bestått, og de teller ikke i karakteren for kurset."
+            },
+            {
+                "answer": "Oppgavene kan enten leveres på papir eller elektronisk",
+                "correct": false,
+                "feedback": "Oppgavene kan kun leveres elektronisk gjennom mittuib siden til MAT102."
+            }
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "question": "Hva er navnet på kursansvarlig i MAT102?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Marius",
+                "correct": false,
+                "feedback": "Marius er gruppeleder"
+            },
+            {
+                "answer": "Peter",
+                "correct": false,
+                "feedback": "Peter er gruppeleder"
+            },
+            {
+                "answer": "Jan",
+                "correct": false,
+                "feedback": "I fjor var Jan Nordbotten kursansvarlig."
+            },
+            {
+                "answer": "Morten",
+                "correct": true,
+                "feedback": "Riktig."
+            }
+        ]
+    },
+    {
+        "question": "Hvordan er opplegget med kollokviegrupper i MAT102?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Jeg blir automatisk melt opp på en gruppe",
+                "correct": false,
+                "feedback": "Du må selv melde deg på en gruppe"
+            },
+            {
+                "answer": "Det er to grupper",
+                "correct": false,
+                "feedback": "Nei, det er fire grupper."
+            },
+            {
+                "answer": "Jeg må selv melde meg opp på en gruppe",
+                "correct": true,
+                "feedback": "Ja, gå inn på kursets side på mittuib og meld deg på en gruppe."
+            },
+            {
+                "answer": "Jeg melder meg på en gruppe gjennom studentweb",
+                "correct": false,
+                "feedback": "Nei, du melder deg på en gruppe gjennom kursets side på mittuib."
+            }
+        ]
+    }
+]

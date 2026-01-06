@@ -1,0 +1,66 @@
+[
+    {
+        "question": "Hva er verdien til x_0? (Skriv svaret med 4 desimaler.)",
+        "type": "numeric",
+        "answers": [
+            {
+              "type": "value",
+              "value": 0,
+              "correct": true,
+              "feedback": "Riktig."
+            },
+            {
+              "type": "default",
+              "feedback": "Feil."
+            }
+        ]
+    },
+    {
+        "question": "Hva er verdien til x_1? (Skriv svaret med 4 desimaler.)",
+        "type": "numeric",
+        "answers": [
+            {
+              "type": "range",
+              "range": [-0.3334, -0.33329],
+              "correct": true,
+              "feedback": "Riktig."
+            },
+            {
+              "type": "default",
+              "feedback": "Feil."
+            }
+        ]
+    },
+    {
+        "question": "Hva er verdien til x_2? (Skriv svaret med 4 desimaler.)",
+        "type": "numeric",
+        "answers": [
+            {
+              "type": "range",
+              "range": [-0.3517, -0.35159],
+              "correct": true,
+              "feedback": "Riktig."
+            },
+            {
+              "type": "default",
+              "feedback": "Feil."
+            }
+        ]
+    },
+    {
+        "question": "Hva er verdien til f(x_1)? (Skriv svaret med 4 desimaler.)",
+        "type": "numeric",
+        "answers": [
+            {
+              "type": "range",
+              "range": [0.0497, 0.0499],
+              "correct": true,
+              "feedback": "Riktig."
+            },
+            {
+              "type": "default",
+              "feedback": "Feil."
+            }
+        ]
+    }
+]
