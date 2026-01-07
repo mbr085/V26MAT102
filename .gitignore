@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+2025notebooks/
+
 Untitled*.ipynb
 .direnv
 __pycache__/
