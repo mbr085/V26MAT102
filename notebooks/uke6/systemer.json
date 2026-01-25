@@ -1,0 +1,28 @@
+[
+  {
+        "question": "Velg funksjonen som løser differensialligningen over",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "y(t) = t² + C",
+                "correct": false,
+                "feedback": "Feil."
+            },
+            {
+                "answer": "y(t) = 2t² + 1",
+                "correct": false,
+                "feedback": "Feil."
+            },
+            {
+                "answer": "y(t) = 2eᵗ",
+                "correct": true,
+                "feedback": "Riktig."
+            },
+            {
+                "answer": "y(t) = eᵗ + 1",
+                "correct": false,
+                "feedback": "Feil."
+            }
+        ]
+    }
+]
