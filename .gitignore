@@ -1,6 +1,12 @@
 # Byte-compiled / optimized / DLL files
 2025notebooks
 
+Datafiler
+
+*.csv
+*.npy
+
+
 Untitled*.ipynb
 .direnv
 __pycache__/
