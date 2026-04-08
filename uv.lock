@@ -1662,7 +1662,7 @@ wheels = [
 [[package]]
 name = "python-linear-algebra"
 version = "0.1.0"
-source = { git = "https://github.com/mbr085/python_linear_algebra#be1673f371a4664349313fcf6dd987e9d358911f" }
+source = { git = "https://github.com/mbr085/python_linear_algebra#62685502d2f7cc18c0ae543e7942618b840d8913" }
 dependencies = [
     { name = "numpy" },
     { name = "sympy" },
