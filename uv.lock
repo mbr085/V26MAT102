@@ -866,7 +866,7 @@ wheels = [
 
 [[package]]
 name = "jupyterlab"
-version = "4.5.1"
+version = "4.5.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "async-lru" },
@@ -883,21 +883,9 @@ dependencies = [
     { name = "tornado" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/09/21/413d142686a4e8f4268d985becbdb4daf060524726248e73be4773786987/jupyterlab-4.5.1.tar.gz", hash = "sha256:09da1ddfbd9eec18b5101dbb8515612aa1e47443321fb99503725a88e93d20d9", size = 23992251, upload-time = "2025-12-15T16:58:59.361Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ac/d5/730628e03fff2e8a8e8ccdaedde1489ab1309f9a4fa2536248884e30b7c7/jupyterlab-4.5.6.tar.gz", hash = "sha256:642fe2cfe7f0f5922a8a558ba7a0d246c7bc133b708dfe43f7b3a826d163cf42", size = 23970670, upload-time = "2026-03-11T14:17:04.531Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/af/c3/acced767eecc11a70c65c45295db5396c4f0c1937874937d5a76d7b177b6/jupyterlab-4.5.1-py3-none-any.whl", hash = "sha256:31b059de96de0754ff1f2ce6279774b6aab8c34d7082e9752db58207c99bd514", size = 12384821, upload-time = "2025-12-15T16:58:55.563Z" },
-]
-
-[[package]]
-name = "jupyterlab-myst"
-version = "2.6.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "jupyter-server", marker = "sys_platform != 'emscripten'" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/04/91/63e3c2c54c707050c9844563c810829a8834fecd0b6b2c3506c2d7dd6995/jupyterlab_myst-2.6.0.tar.gz", hash = "sha256:1502e776153a43588eeb26ce04fb20a0a401805e20edbc57090c9ac932bd42e0", size = 12941853, upload-time = "2025-12-14T20:59:30.685Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/5c/70/f0563af672535bbecc96071ef1ade96f37433e68645a6ea45973dc07c915/jupyterlab_myst-2.6.0-py3-none-any.whl", hash = "sha256:9a0e0ffb318798998be91b7303ffca8a5f15c29bcf339c968c0c3edbc1926265", size = 2710158, upload-time = "2025-12-14T20:59:27.514Z" },
+    { url = "https://files.pythonhosted.org/packages/e1/1b/dad6fdcc658ed7af26fdf3841e7394072c9549a8b896c381ab49dd11e2d9/jupyterlab-4.5.6-py3-none-any.whl", hash = "sha256:d6b3dac883aa4d9993348e0f8e95b24624f75099aed64eab6a4351a9cdd1e580", size = 12447124, upload-time = "2026-03-11T14:17:00.229Z" },
 ]
 
 [[package]]
@@ -1166,16 +1154,16 @@ wheels = [
 
 [[package]]
 name = "meteostat"
-version = "2.0.0"
+version = "2.1.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pandas" },
     { name = "pytz" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/20/8a/195136d10a47ded028ceec50df6e80adfdad11fb1a9928d67d27aa23acff/meteostat-2.0.0.tar.gz", hash = "sha256:d1a28543e6f5645b14d8f00a70aac4dd88658e9ca50ecb68fa95c3fea31548a7", size = 51193, upload-time = "2025-12-30T21:01:02.735Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/23/a1/52a138270f770ff7a5ff5376a6f2b59bbb7d494897ebb87ed41cbec3e861/meteostat-2.1.4.tar.gz", hash = "sha256:186936378be1a8234a91530ccac2464023cc610a9c5db5f1b988a07883e0c5c6", size = 58599, upload-time = "2026-03-21T10:47:28.735Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/79/92/0ea03f8a53cf2206af8d25e5e0e8b7cb5ab1720f328a59146bd5d6b51c46/meteostat-2.0.0-py3-none-any.whl", hash = "sha256:599b4228f3132b9dd93224756b426fceda9ff858cfb091c67a342980c1952547", size = 79163, upload-time = "2025-12-30T21:01:01.581Z" },
+    { url = "https://files.pythonhosted.org/packages/50/12/2a86b1ffd84b77c9791c6b6a2f17bc0f8e6b9ae9b951aebe358e27e7d09d/meteostat-2.1.4-py3-none-any.whl", hash = "sha256:4a28a919aadf4e523b03baec1bdde883da5ff78dc84e1de4680be577a037dd84", size = 93773, upload-time = "2026-03-21T10:47:27.453Z" },
 ]
 
 [[package]]
@@ -2208,7 +2196,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "array-to-latex" },
     { name = "jupyter" },
-    { name = "jupyterlab-myst" },
+    { name = "jupyterlab" },
     { name = "jupyterquiz" },
     { name = "matplotlib" },
     { name = "meteostat" },
@@ -2230,10 +2218,10 @@ dev = [
 requires-dist = [
     { name = "array-to-latex", specifier = ">=0.92" },
     { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "jupyterlab-myst" },
+    { name = "jupyterlab", specifier = ">=4.5.6" },
     { name = "jupyterquiz", specifier = ">=2.8.1" },
     { name = "matplotlib", specifier = ">=3.10.0" },
-    { name = "meteostat", specifier = ">=1.6.8" },
+    { name = "meteostat", specifier = ">=2.1.4" },
     { name = "numpy", specifier = ">=2.2.2" },
     { name = "plotly", specifier = ">=6.0.0" },
     { name = "python-linear-algebra", git = "https://github.com/mbr085/python_linear_algebra" },
